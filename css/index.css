@@ -756,7 +756,7 @@ img.ft_tuyet {
     margin-top: 70px;
     position: relative;
     background-size: cover;
-    background-image: url(/ft.png);
+    background-image: url(../img/ft.png);
     /* width: 1200px;
     height: 250px; */
     /* margin: auto; */
