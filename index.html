@@ -13,9 +13,79 @@
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
 
 </head>
+
 <body>
-    
-      <!-- HEADER -->
+    <div class="main">
+        <div class="nav">
+            <!-- Nav PC -->
+            <!-- <nav class="nav__pc">
+
+                    <ul class="nav__list">
+                        <li>
+                            <a href="" class="nav__link">Home</a>
+                        </li>
+                        <li>
+                            <a href="" class="nav__link">About</a>
+                        </li>
+                        <li>
+                            <a href="" class="nav__link">Category</a>
+                        </li>
+                        <li>
+                            <a href="" class="nav__link">News</a>
+                        </li>
+                        <li>
+                            <a href="" class="nav__link">Contact</a>
+                        </li>
+                    </ul>
+                </nav> -->
+            <label for="nav-mobile-input" class="nav_bars_btn">
+                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars"
+                    class="svg-inline--fa fa-bars fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 448 512">
+                    <path fill="currentColor"
+                        d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z">
+                    </path>
+                </svg>
+            </label>
+
+
+            <input type="checkbox" name="" class="nav__input" id="nav-mobile-input">
+
+
+            <label for="nav-mobile-input" class="nav__overlay"></label>
+
+            <nav class="nav__mobile">
+                <label for="nav-mobile-input" class="nav__mobile_close">
+                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="times"
+                        class="svg-inline--fa fa-times fa-w-11" role="img" xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 352 512">
+                        <path fill="currentColor"
+                            d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z">
+                        </path>
+                    </svg>
+                </label>
+                <img src="/img/on1.png" alt="" class="nav_icon">
+                <ul class="nav__mobile-list">
+                    <li>
+                        <a href="" class="nav__mobile-link">OUR COMPETITORS</a>
+                    </li>
+                    <li>
+                        <a href="" class="nav__mobile-link">FOR PROFRESSIONALS</a>
+                    </li>
+                    <li>
+                        <a href="" class="nav__mobile-link">CONTACT</a>
+                    </li>
+                    <li>
+                        <a href="" class="nav__mobile-link">SEARCH</a>
+                    </li>
+                    <li>
+                        <a href="" class="nav__mobile-link">LOGIN</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <!-- HEADER -->
         <header>
             <div class="ontop">
                 <div class="logo">
@@ -23,19 +93,19 @@
                 </div>
                 <div class="col">
                     <ul class="oncot">
-                        <li><a href="#">OUR COMPETITORS </a></li>
-                        <li><a href="#">FOR PROFRESSIONALS</a></li>
-                        <li><a href="#">CONTACT</a></li>
+                        <li><a class="ontop__hd" href="">OUR COMPETITORS </a></li>
+                        <li><a class="ontop__hd" href="">FOR PROFRESSIONALS</a></li>
+                        <li><a class="ontop__hd" href="">CONTACT</a></li>
                         <li><span class="gach">|</span></li>
-                        <li><a href="#">ENG</a></li>
-                        <li><a href="#"><img src="./img/on2.png" alt="" class="on2"></a></li>
-                        <li><a href="#"><img src="./img/on3.png" alt="" class="on3"></a></li>
+                        <li><a class="ontop__hd" href="">ENG</a></li>
+                        <li class="oncot__user"><a href=""><i class="fas fa-user-circle"></i></a></li>
+                        <li class="oncot__search"><a href=""><i class="fas fa-search"></i></a></li>
                     </ul>
                 </div>
             </div>
         </header>
         <div class="container">
-          
+
 
             <!-- MAIN -->
             <main>
@@ -82,63 +152,66 @@
                     <div class="main2_left">
                         <!-- 0 -->
                         <div class="left">
-                            <h3 class="tieude">Popular challenges</h3> <br>
-                            <img src="./img/main2.png" alt="" class="anh1">
+                            <h3 class="tieude"><a class="tieude_link" href="">Popular challenges</a></h3> <br>
+                            <a href=""><img src="./img/main2.png" alt="" class="anh1"></a>
                         </div>
                         <div class="right">
-                            <h3 class="do">KEY KILLS</h3> <br>
-                            <h2>Friction-Based Fire Making</h2> <br>
+                            <h3 class="do"><a class="black"href="">KEY KILLS</a></h3> <br>
+                            <a href="" class="red"><h2>Friction-Based Fire Making</h2></a> <br>
                             <p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae
                                 consequatur, vel illum qui dolorem.</p> <br>
                             <div class="iconn">
-                                <span class=""><img src="./img/nhan.png" class="anhx" alt=""></span>
+                                <a href="#"><span class="icon__nhan"><i class="fas fa-times"></i></span></a>
+                                <!-- <span class=""><img src="./img/nhan.png" class="anhx" alt=""></span> -->
+                                <!-- <a href="https://www.w3schools.com" target="_blank">Visit W3Schools!</a></p> -->
                                 <p class="the">FIND OUT MORE</p>
                             </div>
                         </div>
                         <!-- 1 -->
                         <div class="left">
                             <br>
-                            <img src="./img/main2_1.png" alt="" class="anh2">
+                            <a href=""><img src="./img/main2_1.png" alt="" class="anh2"></a>
                         </div>
                         <div class="right1">
-                            <h3 class="do">KEY KILLS</h3> <br>
-                            <h2>Make your own shelter</h2> <br>
+                            <h3 class="do"><a class="black"href="">KEY KILLS</a></h3> <br>
+                            <a href="" class="red"><h2>Make your own shelter</h2></a> <br>
                             <p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae
                                 consequatur, vel illum qui dolorem.</p> <br>
                             <div class="iconn">
-                                <span class="anhx"><img src="./img/nhan.png" class="anhx" alt=""></span>
+                                <a href="#"><span class="icon__nhan"><i class="fas fa-times"></i></span></a>
                                 <p class="the">FIND OUT MORE</p>
                             </div>
                         </div>
                         <!-- 2 -->
                         <div class="left">
                             <br>
-                            <img src="./img/main2_2.png" alt="" class="anh3">
+                            <a href=""><img src="./img/main2_2.png" alt="" class="anh3"></a>
                         </div>
                         <div class="right2">
-                            <h3 class="do">KEY KILLS</h3> <br>
-                            <h2>Prepare a meal in the forest</h2> <br>
+                            <h3 class="do"><a class="black"href="">KEY KILLS</a></h3> <br>
+                            <a href="" class="red"><h2>Prepare a meal in the forest</h2></a> <br>
                             <p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae
                                 consequatur, vel illum qui dolorem.</p> <br>
                             <div class="iconn">
-                                <span class="anhx"><img src="./img/nhan.png" class="anhx" alt=""></span>
+                                <a href="#"><span class="icon__nhan"><i class="fas fa-times"></i></span></a>
                                 <p class="the">FIND OUT MORE</p>
                             </div>
                         </div>
                     </div>
                     <div class="main2_right">
                         <div class="tren">
-                            <h1></h1>
                             <img src="./img/anhtren.png" alt="" class="anhtren">
-                            <div class="text_right">
-                                <h1>ENDUR</h1>
-                                <h1 class="tdp2">ANGE</h1>
-                            </div>
-                            <div class="text_right1">
-                                01
-                            </div>
-                            <div class="tex_right2">
-                                challenges
+                            <div class="text_right_all">
+                                <div class="text_right">
+                                    <h1>ENDUR</h1>
+                                    <h1 class="tdp2">ANGE</h1>
+                                </div>
+                                <div class="text_right1">
+                                    01
+                                </div>
+                                <div class="tex_right2">
+                                    challenges
+                                </div>
                             </div>
                         </div>
                         <div class="duoi">
@@ -149,7 +222,7 @@
                                 qui exercitationem, enim temporibus similique quisquam laudantium.</p> <br>
                             <div class="duoi1">
                                 <div class="dtrai">
-                                    <img src="./img/nhan.png" class="anhx" alt="">
+                                    <a href="#"><span class="icon__nhan"><i class="fas fa-times"></i></span></a>
                                 </div>
                                 <div class="dphai">FIND OUT MORE</div>
                             </div>
@@ -167,7 +240,7 @@
                         <div class="text_4">for survival</div>
                         <div class="text_5_duoi">
                             <div class="txt5_d">
-                                <span class="anhtxt5"><img src="./img/nhan.png" class="anhx" alt=""></span>
+                                <a href=""><span class="anhtxt5"><img src="./img/nhan.png" class="anhx" alt=""></span></a>
                                 <p class="t5">SEE MORE</p>
                             </div>
                         </div>
@@ -183,13 +256,15 @@
                         <div class="hcndo">
                             <div class="main3_text_to">
                                 <h3 class="texthcn_1">SHARE YOUR <br>RESULTS ON SOCIAL <br> MEDIA</h3>
-                                <p class="main3_p_nd">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non ea veritatis laudantium
-                                    illo sit aut voluptatem cumque voluptatae.</p>  
-                            </div>
-                            <div class="txt_main3_icon">
-                                <img src="./img/nhan.png" class="anhx_icon" alt="">
-                                <!-- <div class="anhtxt3"><img src="nhan.png" class="anhx_icon" alt=""></div> -->
-                                <p class="txt_main3">SEE RESULTS FROM YOUR FRIENDS</p>
+                                <p class="main3_p_nd">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non ea
+                                    veritatis laudantium
+                                    illo sit aut voluptatem cumque voluptatae.</p>
+
+                                <div class="txt_main3_icon">
+                                    <a href=""><img src="./img/nhan.png" class="anhx_icon" alt="">
+                                    </a>
+                                    <p class="txt_main3">SEE RESULTS FROM YOUR FRIENDS</p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -213,14 +288,14 @@
                                     nonumy eirmod tempor invidunt ut labore<br> et dolore magna aliquyam erat, sed diam
                                     voluptua.</p>
                                 <div class="text_belowleft_img_icon">
-                                    <img src="./img/nhan.png" alt="" class="_img_icon">
+                                    <a href=""><img src="./img/nhan.png" alt="" class="_img_icon"></a>
                                     <p class="icon_left">MORE</p>
                                 </div>
                             </div>
                         </div>
                         <div class="text_belowringht_img">
-                            <img src="./img/ten1.png" alt="" class="ten_left">
-                            <img src="./img/ten2.png" alt="" class="ten_ringht">
+                            <a href=""><img src="./img/ten1.png" alt="" class="ten_left"></a>
+                            <a href=""><img src="./img/ten2.png" alt="" class="ten_ringht"></a>
                         </div>
                     </div>
                 </div>
@@ -261,7 +336,7 @@
                         <p class="txt5_3_3">Lorem ipsum dolor sit amet, consetetur sadipscing elitr,<br> sed diam nonumy
                             eirmod tempor invidunt ut labore et <br> dolore magna aliquyam erat, sed diam voluptua.</p>
                         <div class="icon5_3">
-                            <img src="./img/nhan.png" alt="" class="_img_icon5_3">
+                            <a href=""><img src="./img/nhan.png" alt="" class="_img_icon5_3"></a>
                             <p class="icon_5_3">MORE</p>
                         </div>
                     </div>
@@ -272,7 +347,7 @@
                         </div>
                     </div>
                 </div>
-                
+
             </main>
             <!-- footer -->
             <div class="footer">
@@ -280,40 +355,40 @@
                     <img src="./img/ft_logo.png" alt="" class="_ft">
                 </div>
                 <div class="footer_2_txt">
-                    <h1 class="footer_txt_do"><a class="_gachduoi_do" href="">CHALLENGES</a></h1>
+                    <h1 class="footer_txt_do"><a class="_gachduoi_do white" href="">CHALLENGES</a></h1>
                     <ul class="footer_txt_doc">
-                        <li><a class="_gachduoi" href="">Endurance</a></li>
-                        <li><a class="_gachduoi" href="">Survival</a></li>
-                        <li><a class="_gachduoi" href="">Key skills</a></li>
-                        <li><a class="_gachduoi" href="">Survival kit</a></li>
-                        <li><a class="_gachduoi" href="">Shelter making</a></li>
-                        <li><a class="_gachduoi" href="">Food challenges</a></li>
+                        <li><a class="_gachduoi red" href="">Endurance</a></li>
+                        <li><a class="_gachduoi red" href="">Survival</a></li>
+                        <li><a class="_gachduoi red" href="">Key skills</a></li>
+                        <li><a class="_gachduoi red" href="">Survival kit</a></li>
+                        <li><a class="_gachduoi red" href="">Shelter making</a></li>
+                        <li><a class="_gachduoi red" href="">Food challenges</a></li>
                     </ul>
                     <div class="ft_2_icon">
-                        <div class="ft_icon1"><a href="" class="ft_color_icon"><i class="fab fa-facebook-f"></i></a>
+                        <div class="ft_icon1"><a href="" class="ft_color_icon red"><i class="fab fa-facebook-f"></i></a>
                         </div>
-                        <div class="ft_icon2"><a href="" class="ft_color_icon"><i class="fab fa-twitter"></i></a>
+                        <div class="ft_icon2"><a href="" class="ft_color_icon red"><i class="fab fa-twitter"></i></a>
                         </div>
-                        <div class="ft_icon3"><a href="" class="ft_color_icon"><i class="fab fa-youtube"></i></a>
+                        <div class="ft_icon3"><a href="" class="ft_color_icon red"><i class="fab fa-youtube"></i></a>
                         </div>
                     </div>
                 </div>
                 <div class="footer_3_txt">
-                    <h1 class="footer_txt_do"><a class="_gachduoi_do" href="">ADVICES</a></h1>
+                    <h1 class="footer_txt_do"><a class="_gachduoi_do white" href="">ADVICES</a></h1>
                     <ul class="footer_txt_doc">
-                        <li><a class="_gachduoi" href="">Mountain survival</a></li>
-                        <li><a class="_gachduoi" href="">Forest challenges</a></li>
-                        <li><a class="_gachduoi" href="">How to make your shelter</a></li>
-                        <li><a class="_gachduoi" href="">What to eat in forest</a></li>
-                        <li><a class="_gachduoi" href="">How to stay safe</a></li>
-                        <li><a class="_gachduoi" href="">What to wear</a></li>
+                        <li><a class="_gachduoi red" href="">Mountain survival</a></li>
+                        <li><a class="_gachduoi red" href="">Forest challenges</a></li>
+                        <li><a class="_gachduoi red" href="">How to make your shelter</a></li>
+                        <li><a class="_gachduoi red" href="">What to eat in forest</a></li>
+                        <li><a class="_gachduoi red" href="">How to stay safe</a></li>
+                        <li><a class="_gachduoi red" href="">What to wear</a></li>
                     </ul>
                 </div>
                 <div class="footer_4_txt">
-                    <h1 class="footer_txt_do"><a class="_gachduoi_do" href="">GALLERY</a></h1>
+                    <h1 class="footer_txt_do"><a class="_gachduoi_do white" href="">GALLERY</a></h1>
                     <ul class="footer_txt_doc">
-                        <li><a class="_gachduoi" href="">Foto gallery</a></li>
-                        <li><a class="_gachduoi" href="">Video gallery</a></li>
+                        <li><a class="_gachduoi red" href="">Foto gallery</a></li>
+                        <li><a class="_gachduoi red" href="">Video gallery</a></li>
                     </ul>
                 </div>
             </div>
